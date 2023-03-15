@@ -14,29 +14,10 @@ export default function Home() {
         {/* <!-- Wrapper --> */}
         {/* <div id='wrapper'> */}
           {/* 	<!-- Header --> */}
-          <header id='header'>
-            <div className='inner'>
-              {/* 	<!-- Logo --> */}
-              <a href='index.html' className='logo'>
-                <span className='symbol'>
-                  <img src='logo.svg' alt='' />
-                </span>
-                <span className='title'>Biederman</span>
-              </a>
-
-              {/* <!-- Nav --> */}
-              <nav>
-                <ul>
-                  <li>
-                    <a href='#menu'>Menu</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </header>
+     
 
           {/* 	<!-- Menu --> */}
-          <nav id='menu'>
+      {/*     <nav id='menu'>
             <h2>Menu</h2>
             <ul>
               <li>
@@ -55,7 +36,7 @@ export default function Home() {
                 <a href='elements.html'>Elements</a>
               </li>
             </ul>
-          </nav>
+          </nav> */}
 
           {/* <!-- Main --> */}
           <div id='main'>
