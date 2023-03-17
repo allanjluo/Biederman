@@ -125,6 +125,14 @@ input, select, textarea {
 
 		@media screen and (max-width: 1680px) {
 
+			 /*  allan's stuff */
+			 nav ul {
+				display:flex;
+				flex-direction:row;
+				flex-wrap: wrap;
+				justify-content: flex-end
+			 }
+
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
@@ -206,6 +214,9 @@ input, select, textarea {
 		h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 		}
+/* allan */
+.tiles h2 {color: #585858}
+
 
 	h2 {
 		font-size: 1.1em;
@@ -1537,6 +1548,8 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2634,7 +2647,7 @@ input, select, textarea {
 					left: 0;
 					width: 100%;
 					height: 100%;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E");
+					/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E"); */
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
@@ -2795,6 +2808,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+
 			.tiles {
 				margin: -1.25em 0 0 -1.25em;
 			}
@@ -2814,6 +2828,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+
 
 			.tiles {
 				margin: 0;
@@ -2949,15 +2964,18 @@ input, select, textarea {
 
 			#header {
 				padding: 4em 0 0.1em 0 ;
+
 			}
 
 				#header nav {
 					right: 0.5em;
 					top: 0.5em;
+
 				}
 
 					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
 						background-size: 1.5em 1.5em;
+
 					}
 
 		}

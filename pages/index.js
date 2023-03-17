@@ -14,7 +14,7 @@ export default function Home() {
         {/* <!-- Wrapper --> */}
         {/* <div id='wrapper'> */}
           {/* 	<!-- Header --> */}
-     
+
 
           {/* 	<!-- Menu --> */}
       {/*     <nav id='menu'>
@@ -56,9 +56,9 @@ export default function Home() {
                 </p>
               </header>
               <section className='tiles'>
-                <article className='style1'>
+                <article >
                   <span className='image'>
-                    <img src='pic01.jpg' alt='' />
+                    <img src='https://product-image.juniqe-production.juniqe.com/media/catalog/product/seo-cache/x800/7/6/768-38-MUG-HAN-1/Fika-daylight-design-studio-Mug.jpg' alt='' />
                   </span>
                   <a href='generic.html'>
                     <h2>Magna</h2>

@@ -3,6 +3,7 @@ import Nav from '../components/nav.js';
 import '../assets/css/main.css';
 import Head from 'next/head'
 import Layout from '../components/layout'
+import { AuthContextProvider } from '../context/authcontext'
 
 /* import '../dist/css/main.css' */
 
@@ -22,11 +23,11 @@ export default function App({ Component, pageProps }) {
           content='width=device-width, initial-scale=1, user-scalable=no'
         />
       </Head>
+      <AuthContextProvider>
       <Layout>
       <Component {...pageProps} />
       </Layout>
-
-
+      </AuthContextProvider>
     </>
   );
 }

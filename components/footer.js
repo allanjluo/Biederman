@@ -1,5 +1,10 @@
+import Link from 'next/link'
+import { useAuthContext } from "../context/authcontext"
+import signOutFunc from "../firebase/auth/signout"
 
 export default function Footer () {
+  const { user } = useAuthContext()
+  console.log(user)
   return (
     <footer id='footer'>
     <div className='inner'>
@@ -87,6 +92,10 @@ export default function Footer () {
         <li>&copy; Untitled. All rights reserved</li>
         <li>
           Design: <a href='http://html5up.net'>Allan Luo</a>
+        </li>
+        <li>
+          {user ? <button onClick={signOutFunc}>Sign out</button> : <Link href="/signin">Admin Sign-in</Link>}
+
         </li>
       </ul>
     </div>
