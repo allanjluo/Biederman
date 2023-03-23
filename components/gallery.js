@@ -10,7 +10,7 @@ export default function Gallery() {
           <h1>
             Welcome To Biederman Photography
             <br />
-            designed by Allan Luo .
+            line 2 here.
           </h1>
           <p>
             Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit
