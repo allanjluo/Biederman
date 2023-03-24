@@ -1,10 +1,12 @@
 import React from 'react'
 import useStorage from '../firebase/hooks/useStorage.js'
 
-const ProgressBar = () => {
+const ProgressBar = ({file, setFile}) => {
+  const {url, progress} = useStorage(file)
+
 
   return (
-    <div className ='progress-bar'>progress</div>
+    <div className ='progress-bar' style={{width:progress + '%'}}></div>
   )
 
 }

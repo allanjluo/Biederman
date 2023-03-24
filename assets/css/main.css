@@ -3384,3 +3384,9 @@ input, select, textarea {
 		.uploadbutton {
 			text-align: center;
 		}
+
+		.progress-bar {
+			height: 5px;
+			background: let(--primary);
+			margin-top: 20px;
+		}
