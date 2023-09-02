@@ -1,5 +1,8 @@
 import {configureStore} from '@reduxjs/toolkit'
+import engagementsSlice from "./engagementsSlice"
 
 export default configureStore({
-  reducer:{}
+  reducer:{
+    engagements: engagementsSlice.reducer,
+  }
 })

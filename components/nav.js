@@ -18,6 +18,9 @@ export default function Nav () {
         <span className='symbol'>
           <img src='logo.svg' alt='' />
         </span>
+        <span>
+          <img className='banner' src='banner.png' alt='' />
+        </span>
         <span className='title'>Biederman</span>
       </a>
 

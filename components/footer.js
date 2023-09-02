@@ -91,7 +91,7 @@ export default function Footer () {
       <ul className='copyright'>
         <li>&copy; Untitled. All rights reserved</li>
         <li>
-          Design: <a href='http://html5up.net'>Allan Luo</a>
+          Design: Allan Luo
         </li>
         <li>
           {user ? <button onClick={signOutFunc}>Sign out</button> : <Link href="/signin">Admin Sign-in</Link>}

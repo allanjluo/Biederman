@@ -216,7 +216,11 @@ input, select, textarea {
 		}
 /* allan */
 .tiles h2 {color: #585858}
-
+.banner {
+	width: 732px;
+	height: 150px;
+	filter: invert(100%) opacity(50%)
+}
 
 	h2 {
 		font-size: 1.1em;
@@ -2407,6 +2411,8 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75em 0.75em;
+			/* allan */
+			width: 100%
 		}
 
 		table th {
