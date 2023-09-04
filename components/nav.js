@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Nav () {
 
-  
+  //scrolling function
   const handleScroll = (e) => {
     e.preventDefault();
     const href = e.currentTarget.href;
