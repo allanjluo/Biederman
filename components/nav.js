@@ -1,6 +1,22 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import React from 'react';
 
 export default function Nav () {
+
+  
+  const handleScroll = (e) => {
+    e.preventDefault();
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    // get the element by id and use scrollIntoView
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+  
+  
+
   return (
   /*   <nav>
       <Link href="/engagements">
@@ -12,9 +28,9 @@ export default function Nav () {
     </nav> */
     <header id='header'>
 
-    <div className='inner'>
+     <div className='inner'>
       {/* 	<!-- Logo --> */}
-      <a href='index.html' className='logo'>
+      {/* <a href='/' className='logo'>
         <span className='symbol'>
           <img src='logo.svg' alt='' />
         </span>
@@ -22,19 +38,22 @@ export default function Nav () {
           <img className='banner' src='banner.png' alt='' />
         </span>
         <span className='title'>Biederman</span>
-      </a>
+      </a>   */}
 
       {/* <!-- Nav --> */}
       <nav>
-        <h3>
+        
         <ul>
-          <li>
+          <li className="left-link">
             {/* <Link href='#menu'>Menu</Link> */}
-            <Link href="/engagements">
+            {/* <Link href="/engagements"> */}
+            <Link href="/">
       Engagements
       </Link>
           </li>
-          <li><Link href="/weddings">
+
+        {/* optional links  */}
+          {/* <li><Link href="/weddings">
         Weddings
       </Link></li>
       <li><Link href="/corporate">
@@ -42,15 +61,26 @@ export default function Nav () {
       </Link></li>
       <li><Link href="/portraits">
         Portraits
-      </Link></li>
-      <li><Link href="/faq">
-        FAQ
-      </Link></li>
-      <li><Link href="/about">
+      </Link></li> */}
+      <li>
+        <Link href="/faq">
+         FAQ
+        </Link>
+      </li>
+      <li>
+        <Link href="/about">
         About
-      </Link></li>
+        </Link>
+      </li>
+      <li>
+          <Link href="#footer" onClick={handleScroll}>
+            Contact Me
+          </Link>
+      </li>
+
+
         </ul>
-        </h3>
+        
       </nav>
     </div>
   </header>

@@ -126,7 +126,7 @@ engagement session.</td>
                     <td></td>
                   </tr>
                   <tr>
-                    <td><strong>Why Should You hire me for your surprise proposal?</strong></td>
+                    <td><strong>Why should You hire me for your surprise proposal?</strong></td>
                     <td></td>
                     <td></td>
                   </tr>
@@ -150,7 +150,7 @@ magic moment. With all my planning and experience, I'll make sure nothing gets m
                   <tr>
                     <td>I want to be your resource to make sure everything flows smoothly. I am certain you will have many
 details that may preoocupy you prior to the proposal. Many of my clients--and perhaps you--are not from
-Chicago. Please use me as a resourse. - Call me, email me, or text me and we'll work out all the details
+Chicago. Please use me as a resource. Call me, email me, or text me and we'll work out all the details
 together so that you don't leave anything out.</td>
                     <td></td>
                     <td></td>

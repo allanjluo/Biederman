@@ -6,7 +6,7 @@ export default function Footer () {
   const { user } = useAuthContext()
   console.log(user)
   return (
-    <footer id='footer'>
+    <footer id='footer' >
     <div className='inner'>
       <section>
         <h2>Get in touch</h2>
@@ -91,7 +91,7 @@ export default function Footer () {
       <ul className='copyright'>
         <li>&copy; Untitled. All rights reserved</li>
         <li>
-          Design: Allan Luo
+          Design
         </li>
         <li>
           {user ? <button onClick={signOutFunc}>Sign out</button> : <Link href="/signin">Admin Sign-in</Link>}

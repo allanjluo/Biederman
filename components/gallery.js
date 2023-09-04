@@ -1,23 +1,23 @@
 import { useAuthContext } from '../context/authcontext';
 import EngageUploadForm from './engageuploadform';
 
+
 export default function Gallery() {
   const { user } = useAuthContext();
+  
   return (
     <div id='main'>
       <div className='inner'>
         <header>
           <h1>
-            Welcome To Biederman Photography
+            W. Biederman Photography
             <br />
-            line 2 here.
+            {/* Specialist in Proposal and Event  */}
           </h1>
-          <p>
-            Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit
-            amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis
-            venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem
-            ipsum dolor sit amet nullam dolore.
-          </p>
+          <blockquote>
+            <strong>Welcome! </strong>I specialize in engagement, wedding, and event photography, and have years of experience tailoring each proposal to the client's exact needs.  People often don't know where to start, but I'm here to make it easy! Don't know where you're going to pop the question? Contact me for ideas on the best spots around town, or take a peek below to get some starting ideas. 
+          </blockquote>
+          <hr></hr>
         </header>
         {user && <EngageUploadForm />}
         <section className='tiles'>
