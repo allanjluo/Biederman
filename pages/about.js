@@ -3,11 +3,11 @@ export default function about(){
     <div id='main'>
       <div className='inner'>
         <h1>William Biederman</h1>
-					<p><span className="image left"><img src="pic01.jpg" alt="" /></span>I have always had a passion for capturing life's special moments and turning them into lasting memories.
-There's something truly magical about being able to freeze a moment in time and capture the emotions
-and feelings that come with it. That's why I decided to pursue my passion and become a professional
+					<p><span className="image left"><img src="pic01.jpg" alt="" /></span>I have always had a passion for capturing life&apos;s special moments and turning them into lasting memories.
+Theres something truly magical about being able to freeze a moment in time and capture the emotions
+and feelings that come with it. That&apos;s why I decided to pursue my passion and become a professional
 photographer. <br />
-I specialize in engagement photography because I love being able to witness and capture the excitement
+I specialize in engagement photography because I ndlove being able to witness and capture the excitement
 and love that two people share during such a special time in their lives. I understand that every couple is
 unique and has their own story to tell. This is why I take the time to get to know my clients and tailor my
 approach to fit their specific needs and preferences. <br/> 
