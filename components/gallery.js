@@ -15,7 +15,7 @@ export default function Gallery() {
             {/* Specialist in Proposal and Event  */}
           </h1>
           <blockquote>
-            <strong>Welcome! </strong>I specialize in surprise engagements, wedding, and event photography. I have years of experience tailoring each session to the client&apos;s exact needs.  People often don&apos;t know where to start, especially with surprise engagements, but I&apos;m here to make it easy! Don&apos;t know where you&apos;re going to pop the question? Contact me for ideas on the best spots around townß or take a peek below to get some starting ideas. 
+            <strong>Welcome! </strong>I specialize in surprise engagements, wedding, and event photography. I have years of experience tailoring each session to the client&apos;s exact needs.  People often don&apos;t know where to start, especially with surprise engagements, but I&apos;m here to make it easy! Don&apos;t know where you&apos;re going to pop the question? Contact me for ideas on the best spots around town or take a peek below to get some starting ideas. 
           </blockquote>
           <hr></hr>
         </header>
