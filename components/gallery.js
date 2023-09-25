@@ -15,7 +15,7 @@ export default function Gallery() {
             {/* Specialist in Proposal and Event  */}
           </h1>
           <blockquote>
-            <strong>Welcome! </strong>I specialize in engagement, wedding, and event photography, and have years of experience tailoring each proposal to the client&apos;s exact needs.  People often don&apos;t know where to start, but I&apos;m here to make it easy! Don&apos;t know where you&apos;re going to pop the question? Contact me for ideas on the best spots around town, or take a peek below to get some starting ideas. 
+            <strong>Welcome! </strong>I specialize in surprise engagements, wedding, and event photography. I have years of experience tailoring each session to the client&apos;s exact needs.  People often don&apos;t know where to start, especially with surprise engagements, but I&apos;m here to make it easy! Don&apos;t know where you&apos;re going to pop the question? Contact me for ideas on the best spots around townß or take a peek below to get some starting ideas. 
           </blockquote>
           <hr></hr>
         </header>
@@ -24,12 +24,12 @@ export default function Gallery() {
           <article>
             <span className='image'>
               <img
-                src='https://product-image.juniqe-production.juniqe.com/media/catalog/product/seo-cache/x800/7/6/768-38-MUG-HAN-1/Fika-daylight-design-studio-Mug.jpg'
+                src='north_avenue_beach/main.jpg'
                 alt=''
               />
             </span>
             <a href='generic.html'>
-              <h2>Magna</h2>
+              <h2>North Avenue Beach</h2>
               <div className='content'>
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
