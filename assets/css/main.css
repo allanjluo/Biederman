@@ -215,7 +215,13 @@ input, select, textarea {
 			color: inherit;
 		}
 /* allan */
-.tiles h2 {color: #585858}
+.tiles h2 {
+	/* color: #585858; */
+	color: white;
+	-webkit-text-stroke: 1px black; /* Safari/Chrome */
+}
+  
+  
 .banner {
 	width: 732px;
 	height: 150px;

@@ -17,7 +17,7 @@ export default function Gallery() {
           <blockquote>
             <strong>Welcome! </strong>I specialize in surprise engagements, wedding, and event photography. I have years of experience tailoring each session to the client&apos;s exact needs.  People often don&apos;t know where to start, especially with surprise engagements, but I&apos;m here to make it easy! Don&apos;t know where you&apos;re going to pop the question? Contact me for ideas on the best spots around town or take a peek below to get some starting ideas. 
           </blockquote>
-          <hr></hr>
+          {/* <hr></hr> */}
         </header>
         {user && <EngageUploadForm />}
         <section className='tiles'>
@@ -29,7 +29,7 @@ export default function Gallery() {
               />
             </span>
             <a href='generic.html'>
-              <h2>North Avenue Beach</h2>
+              <h2 >North Avenue Beach</h2>
               <div className='content'>
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -38,12 +38,12 @@ export default function Gallery() {
               </div>
             </a>
           </article>
-          <article className='style2'>
+        <article >
             <span className='image'>
-              <img src='pic02.jpg' alt='' />
+              <img src='lincoln_park_zoo/mainzoo.jpg' alt='' />
             </span>
             <a href='generic.html'>
-              <h2>Lorem</h2>
+              <h2>Lincoln Park Zoo</h2>
               <div className='content'>
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -52,12 +52,12 @@ export default function Gallery() {
               </div>
             </a>
           </article>
-          <article className='style3'>
+          <article>
             <span className='image'>
-              <img src='pic03.jpg' alt='' />
+              <img src='botanical_garden/maingarden.jpg' alt='' />
             </span>
             <a href='generic.html'>
-              <h2>Feugiat</h2>
+              <h2>Chicago Botanical Garden</h2>
               <div className='content'>
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -66,12 +66,12 @@ export default function Gallery() {
               </div>
             </a>
           </article>
-          <article className='style4'>
+          <article>
             <span className='image'>
-              <img src='pic04.jpg' alt='' />
+              <img src='olive_park/mainolive.jpg' alt='' />
             </span>
             <a href='generic.html'>
-              <h2>Tempus</h2>
+              <h2>Olive Park</h2>
               <div className='content'>
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -80,12 +80,12 @@ export default function Gallery() {
               </div>
             </a>
           </article>
-          <article className='style5'>
+          <article>
             <span className='image'>
-              <img src='pic05.jpg' alt='' />
+              <img src='adler_museum/adler2.jpg' alt='' />
             </span>
             <a href='generic.html'>
-              <h2>Aliquam</h2>
+              <h2>Adler Planetarium</h2>
               <div className='content'>
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -94,12 +94,12 @@ export default function Gallery() {
               </div>
             </a>
           </article>
-          <article className='style6'>
+          <article >
             <span className='image'>
-              <img src='pic06.jpg' alt='' />
+              <img src='nature_walk/mainnature.jpg' alt='' />
             </span>
             <a href='generic.html'>
-              <h2>Veroeros</h2>
+              <h2>Peggy Notebaert Nature Walk</h2>
               <div className='content'>
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -108,12 +108,12 @@ export default function Gallery() {
               </div>
             </a>
           </article>
-          <article className='style2'>
+          <article>
             <span className='image'>
-              <img src='pic07.jpg' alt='' />
+              <img src='chicagoland_area/mainarea.jpg' alt='' />
             </span>
             <a href='generic.html'>
-              <h2>Ipsum</h2>
+              <h2>Greater Chicagoland Area</h2>
               <div className='content'>
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -122,7 +122,7 @@ export default function Gallery() {
               </div>
             </a>
           </article>
-          <article className='style3'>
+          {/* <article className='style3'>
             <span className='image'>
               <img src='pic08.jpg' alt='' />
             </span>
@@ -191,7 +191,7 @@ export default function Gallery() {
                 </p>
               </div>
             </a>
-          </article>
+          </article> */}
         </section>
       </div>
     </div>
