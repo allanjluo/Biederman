@@ -1,16 +1,51 @@
 import Link from 'next/link'
 import { useAuthContext } from "../context/authcontext"
 import signOutFunc from "../firebase/auth/signout"
+import { useState } from 'react';
 
 export default function Footer () {
   const { user } = useAuthContext()
-  console.log(user)
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('/api/sendEmail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        alert('Email sent successfully');
+        // Reset form
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        throw new Error('Failed to send email');
+      }
+    } catch (error) {
+      console.error(error);
+      alert('Failed to send email');
+    }
+  };
+
   return (
     <footer id='footer' >
     <div className='inner'>
       <section>
         <h2>Get in touch</h2>
-        <form method='post' action='#'>
+        <form onSubmit={handleSubmit}>
           <div className='fields'>
             <div className='field half'>
               <input
@@ -18,6 +53,9 @@ export default function Footer () {
                 name='name'
                 id='name'
                 placeholder='Name'
+                value={formData.name}
+                onChange={handleChange}
+                required
               />
             </div>
             <div className='field half'>
@@ -26,6 +64,9 @@ export default function Footer () {
                 name='email'
                 id='email'
                 placeholder='Email'
+                value={formData.email}
+                onChange={handleChange}
+                required
               />
             </div>
             <div className='field'>
@@ -33,6 +74,9 @@ export default function Footer () {
                 name='message'
                 id='message'
                 placeholder='Message'
+                value={formData.message}
+                onChange={handleChange}
+                required
               ></textarea>
             </div>
           </div>
